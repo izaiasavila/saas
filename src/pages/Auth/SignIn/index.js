@@ -48,7 +48,6 @@ class SignIn extends Component {
   }
 }
 
-const mapDispatchToProps = dispatch =>
-  bindActionCreators(AuthActions, dispatch);
+const mapDispatchToProps = dispatch => bindActionCreators(AuthActions, dispatch);
 
 export default connect(null, mapDispatchToProps)(SignIn);
