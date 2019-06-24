@@ -53,14 +53,14 @@ export const Logout = styled.button`
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 1px dashed #e04848;
+  border: 1px dashed #a43d3d;
   background: transparent;
-  color: #e04848;
+  color: #a43d3d;
   font-weight: bold;
   transition: all 0.2s;
 
   &:hover {
-    border-color: #a43d3d;
-    color: #a43d3d;
+    border-color: #e04848;
+    color: #e04848;
   }
 `;
